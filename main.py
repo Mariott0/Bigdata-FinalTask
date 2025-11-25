@@ -1,4 +1,3 @@
-# main.py - VERSÃO FINAL PARA APRESENTAÇÃO DE BIG DATA (V3.0)
 
 # ===============================================================
 # INSTALAÇÃO E IMPORTAÇÕES
@@ -21,10 +20,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
-
-# --- CORREÇÃO DO ERRO NLTK ---
 def download_nltk_resources():
-    """Baixa recursos necessários do NLTK, incluindo 'punkt' e 'punkt_tab'."""
     resources = ['punkt', 'punkt_tab']
     
     print("\n--- Verificando recursos do NLTK ---")
